@@ -3,3 +3,7 @@ prog : bindir src/main.cpp
 
 bindir :
 	mkdir -p bin
+
+.PHONY: clean
+clean :
+	rm -rf bin

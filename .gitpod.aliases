@@ -1,0 +1,9 @@
+alias la='ls -A'
+alias lh='ls -h'
+alias ll='ls -l'
+alias ls='ls -G --color'
+
+alias build='make'
+alias run='./bin/prog'
+alias run-tests='echo "Not yet implemented"'
+alias clean='make clean'
