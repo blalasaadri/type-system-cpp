@@ -1,0 +1,9 @@
+{
+   "editor.autoSave": "on",
+   "files.eol": "\n",
+   "editor.autoIndent": true,
+   "editor.tabSize": 2,
+   "editor.wordWrap": "on",
+   "cpp.clangTidy": true,
+   "cpp.clangdArgs": "-I include"
+}
