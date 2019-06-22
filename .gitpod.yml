@@ -1,7 +1,7 @@
 image:
   file: .gitpod.dockerfile
 tasks:
-- command: make
+- command: cmake CMakeLists.txt && make
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
