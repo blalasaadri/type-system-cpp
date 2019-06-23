@@ -1,7 +1,8 @@
 #include <iostream>
+#include "functionality/greeter.hpp"
 
 using namespace std;
 
 int main() {
-    cout << "Hello, World!";
+    wcout << greeting(L"World") << endl;
 }
