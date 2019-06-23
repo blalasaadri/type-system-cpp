@@ -1,6 +1,7 @@
 image:
   file: .gitpod.dockerfile
 tasks:
+  - init: cmake CMakeLists.txt
   - command: cmake CMakeLists.txt && make
 github:
   prebuilds:
