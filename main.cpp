@@ -1,5 +1,5 @@
 #include <iostream>
-#include "functionality/greeter.hpp"
+#include "greeter.hpp"
 
 using namespace std;
 

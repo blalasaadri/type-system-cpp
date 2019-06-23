@@ -1,5 +1,6 @@
 #include <sstream>
 #include <string>
+#include "greeter.hpp"
 
 std::wstring greeting(std::wstring name) {
   std::wstringstream stream;

@@ -6,7 +6,7 @@ set (CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 file (GLOB_RECURSE SOURCES
   src/*.cpp
 )
-add_executable(prog ${SOURCES})
+add_executable(prog main.cpp ${SOURCES})
 target_include_directories(prog PRIVATE include)
 
 # Tests
@@ -16,9 +16,8 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 ## Link runTests with what we want to test and the GTest and pthread library
 file (GLOB_RECURSE TEST_SOURCES
-  src/functionality/*.cpp
   test/*.cpp
 )
-add_executable(runTests ${TEST_SOURCES})
+add_executable(runTests ${SOURCES} ${TEST_SOURCES})
 target_include_directories(runTests PRIVATE include)
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
