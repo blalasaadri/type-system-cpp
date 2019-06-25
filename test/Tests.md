@@ -1,0 +1,2 @@
+These tests use [googletest](https://github.com/google/googletest).
+You can check out the [googletest primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) to learn more about how it works.
