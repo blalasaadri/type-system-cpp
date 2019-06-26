@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspace/type-system-cpp",
+  "command": "/usr/bin/c++   -I/workspace/type-system-cpp/include    -o CMakeFiles/prog.dir/main.cpp.o -c /workspace/type-system-cpp/main.cpp",
+  "file": "/workspace/type-system-cpp/main.cpp"
+},
+{
+  "directory": "/workspace/type-system-cpp",
+  "command": "/usr/bin/c++   -I/workspace/type-system-cpp/include    -o CMakeFiles/prog.dir/src/greeter.cpp.o -c /workspace/type-system-cpp/src/greeter.cpp",
+  "file": "/workspace/type-system-cpp/src/greeter.cpp"
+},
+{
+  "directory": "/workspace/type-system-cpp",
+  "command": "/usr/bin/c++   -I/workspace/type-system-cpp/include    -o CMakeFiles/runTests.dir/src/greeter.cpp.o -c /workspace/type-system-cpp/src/greeter.cpp",
+  "file": "/workspace/type-system-cpp/src/greeter.cpp"
+},
+{
+  "directory": "/workspace/type-system-cpp",
+  "command": "/usr/bin/c++   -I/workspace/type-system-cpp/include    -o CMakeFiles/runTests.dir/test/greeter_test.cpp.o -c /workspace/type-system-cpp/test/greeter_test.cpp",
+  "file": "/workspace/type-system-cpp/test/greeter_test.cpp"
+},
+{
+  "directory": "/workspace/type-system-cpp",
+  "command": "/usr/bin/c++   -I/workspace/type-system-cpp/include    -o CMakeFiles/runTests.dir/test/start_tests.cpp.o -c /workspace/type-system-cpp/test/start_tests.cpp",
+  "file": "/workspace/type-system-cpp/test/start_tests.cpp"
+},
+{
+  "directory": "/workspace/type-system-cpp",
+  "command": "/usr/bin/c++   -I/workspace/type-system-cpp/include    -o CMakeFiles/runTests.dir/test/templates_test.cpp.o -c /workspace/type-system-cpp/test/templates_test.cpp",
+  "file": "/workspace/type-system-cpp/test/templates_test.cpp"
+}
+]

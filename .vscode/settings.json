@@ -4,6 +4,5 @@
    "editor.autoIndent": true,
    "editor.tabSize": 2,
    "editor.wordWrap": "on",
-   "cpp.clangTidy": true,
-   "cpp.clangdArgs": "-I include"
+   "cpp.clangTidy": true
 }
